@@ -1,0 +1,15 @@
+streamlit>=1.37
+fastapi>=0.110
+uvicorn>=0.23
+httpx>=0.25
+pytest>=8.0
+plotly>=5.18
+shap>=0.46
+psutil>=5.9
+# keep these two identical to the Colab session, because the saved model files depend on them
+scikit-learn==1.6.1
+xgboost==3.4.1
+numpy>=2.1
+pandas>=2.2
+pyarrow>=15
+joblib>=1.3

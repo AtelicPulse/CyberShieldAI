@@ -1,0 +1,9 @@
+[flake8]
+max-line-length = 120
+extend-ignore = E501, W503, E203, W291, W292
+exclude =
+    .git,
+    __pycache__,
+    .pytest_cache,
+    data,
+    models
